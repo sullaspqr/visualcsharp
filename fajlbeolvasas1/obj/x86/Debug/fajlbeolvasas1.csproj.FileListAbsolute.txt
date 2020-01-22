@@ -1,0 +1,4 @@
+C:\Users\nemethb\documents\visual studio 2010\Projects\fajlbeolvasas1\fajlbeolvasas1\bin\Debug\fajlbeolvasas1.exe
+C:\Users\nemethb\documents\visual studio 2010\Projects\fajlbeolvasas1\fajlbeolvasas1\bin\Debug\fajlbeolvasas1.pdb
+C:\Users\nemethb\documents\visual studio 2010\Projects\fajlbeolvasas1\fajlbeolvasas1\obj\x86\Debug\fajlbeolvasas1.exe
+C:\Users\nemethb\documents\visual studio 2010\Projects\fajlbeolvasas1\fajlbeolvasas1\obj\x86\Debug\fajlbeolvasas1.pdb
