@@ -1,0 +1,17 @@
+﻿<Window x:Class="EgyszamjatekGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EgyszamjatekGUI"
+        mc:Ignorable="d"
+        Title="Egyszámjáték GUI" Height="180" Width="500">
+    <Canvas>
+        <Label Content="Játékos neve" Canvas.Left="10" Canvas.Top="22" Name="jatekosNeve"/>
+        <TextBox Canvas.Left="100" Canvas.Top="26" Width="200" Name="InputJatekos"/>
+        <Label Content="Játékos tippjei" Canvas.Left="10" Canvas.Top="52" Name="JatekosTippjei"/>
+        <TextBox Canvas.Left="100" Canvas.Top="56" Width="300" Name="InputTippek" TextChanged="InputTippek_TextChanged"/>
+        <Label Content="0 db" Canvas.Left="417" Canvas.Top="52" Name="TippDarab"/>
+        <Button Content="Játékos hozzáadása" Canvas.Left="150" Canvas.Top="100" Width="200" Name="JatekostHozzaad" Click="JatekostHozzaad_Click"/>
+    </Canvas>
+</Window>

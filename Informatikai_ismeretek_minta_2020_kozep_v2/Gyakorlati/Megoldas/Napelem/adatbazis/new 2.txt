@@ -1,0 +1,24 @@
+iskolai logó, záródolgozat neve, neved, középre
+alulra, jobb oldalon iskola neve, konzulens neve: Németh Bence,
+alá évszám 2020
+KELL: tartalomjegyzék kell, de úgy hogy a főcímek és az alcímek a 
+kezdőlap-stílus alapján legyenek hierarchikusan beállítva!
+Bevezetés - témaválasztás -> indoklás, hogy milyen gyakorlati haszna van ennek?
+1-2 oldal
+Szakirodalom áttekintése - > van-e? könyv, stb youtube videók stb.
+1-2 oldal
+Arduino bemutatása, története, IDE feljesztő-környezet, miért pont arduino-t választottad
+milyen kiegészítőket használtál hozzá? Miért pont ezeket stb.
+3-4 oldal
+Program részletek bemutatása + felhasználói doksi
+Ábrák lehetnek + képaláírás (hanyas ábra + név) oldalak 40%-nál lehet ábra
+képek max fél oldalasak legyenek!
+Mi okozott problémát, hogyan oldottam meg?
+Konkurensek mit hogyan csináltak? Én mit csináltam ezek mellett...
+Végére összegzés. fél-1 oldal
+IRODALOMJEGYZÉK, hivatkozásokat APA hivatkozással
+Letöltés dátuma: ekkor és ekkor, webcím: www.google.com
+könyv: Név, szerző, kiadó, kiadás éve, stb APA mentén!
+12 bm, 1,5 sortáv, sorkizárt!
+
+

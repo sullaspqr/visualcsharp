@@ -1,0 +1,29 @@
+1., írjunk egész listát, ami 100 elemű és
+az elemeket véletlen számokkal töltjük fel, legyen 100 eleme.
+A véletlen számok 1 és 100 között legyenek!
+
+Random r = new Random();
+r.Next(1,101);
+
+2., Írjunk 5 elemű egész tömböt, amit STATIKUSAN töltsünk fel számokkal!
+
+3., Struktúra készítése: úgy, hogy legyen a neve: xyz, és ez alapján
+készíts egy x struktúra-tömböt, amiben van egy string, egy karakter,
+és egy egész szám! ezeket töltsük fel 2 adattal!
+			
+struct abc {
+	int a;
+	int b;
+	string c;
+}
+
+main () {
+	int[] y = new int[5];
+	abc[] x = new abc[2];
+	x[0].a = 1; x[0].b = 2; x[0].c = "abc";
+	x[1].a = 3; x[1].b = 5; x[1].c = "cde";
+	for (int i=0;i<abc.Length;i++){
+	Console.WriteLine("Az abc struktúra 
+	x példányának elemei:{0} {1} {2}", x[i].a, x[i].b, x[i].c);
+	}
+}
