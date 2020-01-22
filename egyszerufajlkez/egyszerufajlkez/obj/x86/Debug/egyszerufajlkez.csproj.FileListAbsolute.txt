@@ -1,0 +1,8 @@
+C:\Users\nemethb\AppData\Local\Temporary Projects\egyszerufajlkez\bin\Debug\egyszerufajlkez.exe
+C:\Users\nemethb\AppData\Local\Temporary Projects\egyszerufajlkez\bin\Debug\egyszerufajlkez.pdb
+C:\Users\nemethb\AppData\Local\Temporary Projects\egyszerufajlkez\obj\x86\Debug\egyszerufajlkez.exe
+C:\Users\nemethb\AppData\Local\Temporary Projects\egyszerufajlkez\obj\x86\Debug\egyszerufajlkez.pdb
+C:\Users\nemethb\documents\visual studio 2010\Projects\egyszerufajlkez\egyszerufajlkez\obj\x86\Debug\egyszerufajlkez.exe
+C:\Users\nemethb\documents\visual studio 2010\Projects\egyszerufajlkez\egyszerufajlkez\obj\x86\Debug\egyszerufajlkez.pdb
+C:\Users\nemethb\Documents\Visual Studio 2010\Projects\egyszerufajlkez\egyszerufajlkez\bin\Debug\egyszerufajlkez.exe
+C:\Users\nemethb\Documents\Visual Studio 2010\Projects\egyszerufajlkez\egyszerufajlkez\bin\Debug\egyszerufajlkez.pdb
