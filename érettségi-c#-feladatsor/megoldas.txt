@@ -1,0 +1,89 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace erettsegi
+{
+    class Program
+    {
+        struct erettsegi {
+            public int a;
+            public char b;
+            public string c;
+        }
+        struct erettsegi2 {
+            public int aa;
+            public char bb;
+            public string cc;
+            public int dd;
+        }
+        static void Main(string[] args)
+        {
+            StreamReader sr = new StreamReader(@"c:\xampp\erettsegi.csv");
+            erettsegi[] er = new erettsegi[20];
+            int i = 0; string k;
+            while (!sr.EndOfStream) {
+                string x = sr.ReadLine();
+                string[] y = x.Split(';');
+                er[i].a = int.Parse(y[0]);
+                k = y[2].ToUpper();
+                er[i].b = Convert.ToChar(y[1]);
+                er[i].c = k;
+                i++;
+            }
+            for (i = 0; i < er.Length; i++) {
+             Console.Write("{0} {1} {2} \n",er[i].a, er[i].b, er[i].c);
+            }
+            // 3.feladat: összegzés tétele (számold össze a a oszlopot!)
+            int osszeg = 0;
+            for (i = 0; i < er.Length; i++) {
+                osszeg += er[i].a;
+            }
+            Console.WriteLine("\n3.feladat: \n {0}",osszeg);
+            // 4.feladat: számoljuk össze, hogy hány darab a-t tartalmazó név van?
+            int ak = 0;
+            for (i = 0; i < er.Length; i++)
+            {
+                if (er[i].c.Contains("A"))
+                {
+                    ak++;
+                }
+            } // \n -> újsor karakter
+            Console.WriteLine("\n4.feladat: \n Az a-k száma: {0}\a",ak);
+            // 5.feladat: határozzuk meg a leghosszabb nevet! (maximum keresés)
+            int max = 0;
+            for (i = 0; i < er.Length; i++)
+            {
+                if(er[i].c.Length>max) { max = er[i].c.Length; }
+            }
+            Console.WriteLine("5.feladat: \n A leghosszabb név karakterszáma: {0}", max);
+            //6.feladat: mond meg, hogy hanyadik helyen van c karakter! (lin.ker)
+            int index=0;
+            for (i = 0; i < er.Length; i++)
+            {
+                if (er[i].b == 'c') { index=i; }
+            }
+            Console.WriteLine("6.feladat: \n A keresett c karakter indexe: {0}", index);
+            //7.feladat: számítsuk ki a stringek számát soronként és azt írjuk vissza,
+            // a korábbi adatokkal együtt egy új struktúrába, majd innen 
+            //egy erettsegi2.txt fájlba!
+            StreamWriter sw = new StreamWriter(@"c:\xampp\erettsegi2.csv");
+            erettsegi2[] er2 = new erettsegi2[20];
+            for (i = 0; i < er2.Length; i++) {
+
+                er2[i].aa = er[i].a;
+                er2[i].bb = er[i].b;
+                er2[i].cc = er[i].c;
+                er2[i].dd = er[i].c.Length;
+                sw.Write(er2[i].aa+";"+ er2[i].bb+";" + er2[i].cc+";"+ er2[i].dd+"\n");
+            }
+            sw.Flush();
+            sw.Close();
+            sr.Close();
+            Console.ReadKey();
+        }
+    }
+}

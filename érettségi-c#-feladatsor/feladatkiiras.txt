@@ -1,0 +1,7 @@
+1., Olvassuk be az erettsegi.csv fájlt!
+2., Tegyük megfelelő adattípusba!
+3., összegzés tétele (számold össze az "a" oszlopot!)
+4., Számoljuk össze, hogy hány darab a-t tartalmazó név van!
+5.,határozzuk meg a leghosszabb nevet! (maximum keresés)
+6., Adja vissza, hogy hanyadik helyen van c karakter! (lineáris keresés)
+7., számítsuk ki a stringek számát soronként és azt írjuk vissza, a korábbi adatokkal együtt egy új struktúrába, majd innen egy erettsegi2.txt fájlba!
