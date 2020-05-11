@@ -1,0 +1,7 @@
+C:\Users\Bencike\source\repos\OOP2-alprg\OOP2-alprg\bin\Debug\OOP2-alprg.exe.config
+C:\Users\Bencike\source\repos\OOP2-alprg\OOP2-alprg\bin\Debug\OOP2-alprg.exe
+C:\Users\Bencike\source\repos\OOP2-alprg\OOP2-alprg\bin\Debug\OOP2-alprg.pdb
+C:\Users\Bencike\source\repos\OOP2-alprg\OOP2-alprg\obj\Debug\OOP2-alprg.csprojAssemblyReference.cache
+C:\Users\Bencike\source\repos\OOP2-alprg\OOP2-alprg\obj\Debug\OOP2-alprg.csproj.CoreCompileInputs.cache
+C:\Users\Bencike\source\repos\OOP2-alprg\OOP2-alprg\obj\Debug\OOP2-alprg.exe
+C:\Users\Bencike\source\repos\OOP2-alprg\OOP2-alprg\obj\Debug\OOP2-alprg.pdb
